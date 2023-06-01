@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* ====================header===================== */
+
+.header {
+    background-color: rgb(167, 196, 89);
+    color: black;
+    padding: 10px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header-titulo {
+    font-family: lato;
+    font-size: x-large;
+}
+
+.header-nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+/* -------------------body------------------ */
+
+
+.body {
+    font-family: lato;
+}
+
+
+/* =====================INDEX===================== */
+
+
+
+/* --------------------portada--------------------- */
+
+
+.index-portada {
+    height: 75vh;
+    background-image: url(../img/Kawa-best.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.index-portada-texto {
+    font-family: lato;
+    background-color: rgba(239, 235, 235, 0.811);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 20vh;
+    padding: 19px;
+    gap: 10px;
+}
+
+
+
+/* ==================footer================== */
+
+
+
+.footer {
+    height: 20vh;
+    background-color: rgb(167, 196, 89);
+    padding: 16px;
+    color: black;
+}
+
+.redes {
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    ;
+}
+
+.redes-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+
+.redes-icono {
+    font-size: 1.2rem;
+    color: mediumvioletred;
+}
+
+.map {
+    display: none;
+}
+
+
+
+/* -----------------contacto------------------ */
+
+
+.contacto-body {
+    font-family: lato;
+    font-size: xx-large;
+}
+
+.portada-contacto {
+    height: 75vh;
+
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+
+    background-image: url("../img/Kawa desert.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.portada-form-contacto {
+    background-color: rgba(164, 158, 158, 0.845);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    padding: 20px;
+    gap: 10px;
+}
+
+input:focus{
+    background-color: red;
+}
+
+/* =================galeria================= */
+
+
+
+.header-galeria {
+    background-color: rgb(167, 196, 89);
+    color: black;
+    padding: 10px;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header-galeria-titulo {
+    font-family: lato;
+}
+
+.galeria-nav-list {
+    font-family: lato;
+    height: 20px;
+    height: 20px;
+    display: flex;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 20px;
+}
+
+.galeria-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: cover;
+}
+
+.galeria-contenedor img {
+    width: 90%;
+    height: 220px;
+    display: block;
+    padding: 10px;
+}
+
+
+
+/* --------------------servicios-------------------- */
+
+.servicios-portada {
+    height: 75vh;
+    background-image: url(../img/Kawa-best.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.servicios-portada-txto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+/* --------------------ventas---------------------- */
+
+
+.productos-titulo {
+    height: 120px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 400;
+    padding-top: 40px;
+}
+
+.productos {
+    height: 75vh;
+    background-color: black;
+    color: white;
+}
+
+.div-tarjeta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+    padding: 12px;
+    gap: 20px;
+}
+
+.tarjeta {
+    background-color: rgba(249, 245, 245, 0.682);
+    border: 4px solid wheat;
+    height: 500px;
+    width: 500px;
+}
+
+.tarjeta img {
+    width: 100%;
+}
+
+.tarjeta-cuerpo {
+    height: 36%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn {
+    background-color: rgb(75, 196, 196);
+    padding: 12px 25px;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background-color: red;
+}
+
+
+
+/* =====================600px===================*/
+
+
+@media (min-width: 600px) {
+
+
+    /* -------------------header-------------------- */
+
+
+
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-titulo {
+        text-align: start;
+        margin: 0;
+        font-size: xx-large;
+    }
+
+    .header-nav-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        gap: 50px;
+    }
+
+
+
+    /* =====================INDEX===================== */
+
+
+    /* --------------------portada--------------------- */
+
+
+
+    .index-portada-texto {
+        height: 30vh;
+        font-size: x-large;
+    }
+
+
+
+    /* -------------------footer---------------------- */
+
+
+
+    .footer {
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 3vh;
+    }
+
+    .div-map {
+        display: inline;
+    }
+
+    .div-redes {
+        font-size: s;
+    }
+
+
+
+    /* ------------------galeria-------------------- */
+
+
+
+    .galeria-contenedor {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        padding: 20px;
+    }
+
+    .imagen-destacada {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    .galeria-contenedor img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+/* =====================1024px================*/
+
+
+@media (min-width: 1024px) {
+
+
+    /* -------------------header------------------- */
+
+
+
+
+    .header-nav-list {
+        font-size: x-large;
+    }
+
+
+
+    /* -------------------index--------------------- */
+
+
+
+    .index-portada-texto {
+        font-size: x-large;
+        padding-bottom: 8;
+    }
+
+    .index-portada-titulo {
+        font-size: xx-large;
+        font-weight: 900;
+    }
+
+
+
+    /* ---------------------footer------------------ */
+
+
+
+    .footer {
+        height: 280px;
+    }
+
+    .div-redes {
+        font-family: lato;
+        font-size: x-large;
+        font-weight: 400;
+        display: flex;
+        flex-direction: row;
+        justify-content: space- space-between;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
+
+    /* ----------------galeria------------------- */
+
+
+
+
+    .galeria-contenedor {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        height: 75vh;
+    }
+}
