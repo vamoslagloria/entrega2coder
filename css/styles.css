@@ -16,7 +16,8 @@ a {
 
 
 
-/* ====================header===================== */
+/* ====================inicio menu header===================== */
+
 
 .header {
     background-color: rgb(167, 196, 89);
@@ -34,6 +35,10 @@ a {
     font-size: x-large;
 }
 
+
+/* ------------------inicio menu nav-bar---------------------- */
+
+
 .header-nav-list {
     display: flex;
     flex-direction: row;
@@ -42,19 +47,13 @@ a {
 
 
 
-/* -------------------body------------------ */
+/* -------------------inicio menu principal--------------------- */
+
 
 
 .body {
     font-family: lato;
 }
-
-
-/* =====================INDEX===================== */
-
-
-
-/* --------------------portada--------------------- */
 
 
 .index-portada {
@@ -81,7 +80,7 @@ a {
 
 
 
-/* ==================footer================== */
+/* ---- inicio, ventas, servicios, galeria, contacto, menu footer ------ */
 
 
 
@@ -119,7 +118,7 @@ a {
 
 
 
-/* -----------------contacto------------------ */
+/* --------------------------contacto menu pricipal ----------------------------- */
 
 
 .contacto-body {
@@ -149,12 +148,12 @@ a {
     gap: 10px;
 }
 
-input:focus{
+input:focus {
     background-color: red;
 }
 
-/* =================galeria================= */
 
+/* --------------------------- galeria menu header --------------------------- */
 
 
 .header-galeria {
@@ -172,6 +171,10 @@ input:focus{
 .header-galeria-titulo {
     font-family: lato;
 }
+
+
+/* ---------------------------- galeria menu nav-bar --------------------------- */
+
 
 .galeria-nav-list {
     font-family: lato;
@@ -201,7 +204,8 @@ input:focus{
 
 
 
-/* --------------------servicios-------------------- */
+/* ------------------------ servicios menu principal ------------------------ */
+
 
 .servicios-portada {
     height: 75vh;
@@ -220,7 +224,7 @@ input:focus{
 }
 
 
-/* --------------------ventas---------------------- */
+/* ------------------------- ventas menu pricipal -------------------------- */
 
 
 .productos-titulo {
@@ -277,13 +281,13 @@ input:focus{
 
 
 
-/* =====================600px===================*/
+/* ========================== break point 600px ============================*/
 
 
 @media (min-width: 600px) {
 
 
-    /* -------------------header-------------------- */
+    /* ------------------------ inicio menu header ------------------------- */
 
 
 
@@ -298,6 +302,11 @@ input:focus{
         font-size: xx-large;
     }
 
+
+
+    /* ---------------------------- inicio menu nav-bar ------------------------- */
+
+
     .header-nav-list {
         display: flex;
         flex-direction: row;
@@ -307,10 +316,8 @@ input:focus{
 
 
 
-    /* =====================INDEX===================== */
 
-
-    /* --------------------portada--------------------- */
+    /* -------------------------- inicio menu principal ------------------------ */
 
 
 
@@ -321,7 +328,7 @@ input:focus{
 
 
 
-    /* -------------------footer---------------------- */
+    /* ------- inicio, ventas, servicios, galeria, contacto, menu footer ------- */
 
 
 
@@ -343,7 +350,7 @@ input:focus{
 
 
 
-    /* ------------------galeria-------------------- */
+    /* ----------------------- galeria menu principal ----------------------- */
 
 
 
@@ -367,14 +374,13 @@ input:focus{
 
 
 
-/* =====================1024px================*/
+/* =========================== break point 1024px ============================*/
 
 
 @media (min-width: 1024px) {
 
 
-    /* -------------------header------------------- */
-
+    /* ------- inicio, ventas, servicios, galeria, contacto, menu header ------- */
 
 
 
@@ -384,7 +390,7 @@ input:focus{
 
 
 
-    /* -------------------index--------------------- */
+    /* ----------------------- inicio menu principal ----------------------- */
 
 
 
@@ -400,7 +406,7 @@ input:focus{
 
 
 
-    /* ---------------------footer------------------ */
+    /* ---- inicio, ventas, servicios, galeria, contacto, menu footer ---- */
 
 
 
@@ -421,7 +427,7 @@ input:focus{
 
 
 
-    /* ----------------galeria------------------- */
+    /* --------------------- galeria menu prnicipal ------------------------ */
 
 
 
