@@ -71,11 +71,10 @@ a {
     background-color: rgba(239, 235, 235, 0.811);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100vw;
-    height: 20vh;
+    height: 25vh;
     padding: 19px;
-    gap: 10px;
 }
 
 
@@ -185,7 +184,9 @@ input:focus {
     display: flex;
     flex-direction: row;
     justify-content: right;
-    gap: 8px;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
 }
 
 .galeria-contenedor {
